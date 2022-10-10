@@ -15,6 +15,7 @@ app.use(express.json());
 app.use('/api/createUser', require('./routes/createUser'));
 app.use('/api/listUsers', require('./routes/listUsers'));
 app.use('/api/deleteUser', require('./routes/deleteUser'));
+app.use('/api/updateUser', require('./routes/updateUser'));
 
 //starting the server
 app.listen(3000, () => {
